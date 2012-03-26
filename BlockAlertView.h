@@ -12,4 +12,6 @@
 
 @interface BlockAlertView : NSObject <UIAlertViewDelegate>
 
+- (void)showWithTitle:(NSString *)aTitle message:(NSString *)aMessage blockButtons:(NSArray *)aBlockButtons;
+
 @end
